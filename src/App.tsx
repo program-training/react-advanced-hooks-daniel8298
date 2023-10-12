@@ -1,12 +1,18 @@
-import './App.css'
+import "./App.css";
+import ButtonsCounts from "./components/ButtonsCounts";
+import Component1 from "./components/StorageA";
+import DivArea from "./components/DivArea";
+import CartReducer from "./components/CartManagement";
 
 function App() {
-
   return (
     <>
-      <div>hello !</div>
+      <ButtonsCounts />
+      <DivArea />
+      <Component1 />
+      <CartReducer />
     </>
-  )
+  );
 }
 
-export default App
+export default App;
